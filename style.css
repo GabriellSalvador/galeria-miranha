@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #222831;
+}
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 700;
+}
+table {
+    margin: 0 auto;
+    background-color: #31363F;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+td img,
+td video {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+td img:hover,
+td video:hover {
+    transform: scale(1.1);
+}
